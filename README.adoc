@@ -1,0 +1,171 @@
+
+== Briofita Colorscheme
+
+Briofita is a colorful dark background Vim colorscheme.
+
+// main text [[[1
+
+More details are in the Vim help file. It is in the "doc" directory and, if Briofita is correctly
+installed, typing ":help briofita" will display it.
+It has *many* custom highlights and supports syntax coloring for *many* languages, utilities,
+plugins, tools... Although _heavier_ than common Vim colorschemes it runs smoothly on current computers.
+
+More details are in the Vim help file. It is in the "doc" directory and, if Briofita is correctly
+installed, typing ":help briofita" will display it.
+
+// a few of the supported languages, listed [[[1
+
+Briofita colorscheme is fit for common, non-specialized usage, but custom, colorful highlights
+are provided for *several* programming languages. For example:
+
+    - authoring, writing, publishing:
+
+        * Asciidoc;
+        * Markdown; ...
+
+    - software development:
+
+        * Java,
+        * Javascript;
+        * Json, Yaml;
+        * Julia;
+        * Perl / Perl6;
+        * Python / Python3;
+        * Ruby;
+        * Haskell;
+        * Lua;
+        * C++ and C;
+        * Shellscript;
+        * HTML, XHTML, XML, CSS;
+        * Ruby;
+        * SQL, PL/SQL, CSV; ...
+
+    - Vim-related development:
+
+        * VimL / Vimscript;
+        * Vim help;
+        * custom highlights for Vim plugins;
+
+// colorscheme history; vim.org URL [[[1
+
+Briofita was first released in 2012 in the Vim site (vim.org).
+Current version is 4.0.0. (The first version was released in 2012 on
+vim.org site.)
+
+Briofita page on the Vim website:
+
+http://www.vim.org/scripts/script.php?script_id=4136.
+// ]]]1
+
+=== Selected Screenshots
+
+// screenshots section [[[1
+
+Go
+
+.golang
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplego.png[Go language sample]
+
+Java
+
+.java
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejava.png["Java language sample"]
+
+Julia
+
+.julia
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejulia.png["Julia language sample"]
+
+Python
+
+.python
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplepython.png["Python language sample"]
+
+VimL
+
+.vimL
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleviml.png["Vimscript language sample"]
+
+C language
+
+.c language
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleclang.png["C language sample"]
+
+CSS
+
+.css
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplecss.png["CSS sample"]
+
+Javascript
+
+.javascript
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejavascript.png["Javascript sample"]
+
+Perl 6
+
+.perl6
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleperl6.png["Perl 6 sample"]
+
+Ruby
+
+.ruby
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleruby.png["Ruby sample"]
+
+RHTML
+
+.rhtml
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplerhtml.png["RHTML sample"]
+
+XML
+
+.xml
+image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplexml.png["XML sample"]
+
+// ]]]1
+
+=== Installation and Use
+
+You can install Briofita by dowloading it as a Zip file (either from
+the Vim.org site or from Github).
+
+Unpack it in the appropriate
+place under your .vim (_vim) directory.
+
+One usual place is the "bundle" directory: the Pathogen plugin makes it
+easy to enable or disable bundle plugins.
+
+Another way it can be installed in by placing it in the "pack" directory,
+managed by Vim itself. In the "pack/start" subdirectory the colorscheme
+becomes available from the Vim startup time. In "pack/opt" subdirectory
+you will need to first run ":packadd" to make it available.
+
+Installation can be done, too, is by cloning Briofita git repository from github.
+
+Once installed the colorscheme it can be used like any other colorscheme.
+For example, use below command:
+
+------
+:color briofita
+------
+=== License
+
+The Vim licence (change the term "Vim" to "Briofita Vim colorscheme").
+
+=== Additional files
+
+// email section [[[1
+
+Briofita comes with a Vim help file and a lightline plugin theme. The
+lightline theme -- for Vim statusline -- is still experimental and will likely
+be changed in future releases.
+
+You may contact the author either via Github-provided channels
+(pull requests, issues, etc.) or via email:
+
+Sergio Nobre <brio dot develop at gmail dot com>
+
+(put "[VIM]" in the subject, please)
+
+// modeline    [[[1
+// vim: et:nolist:ts=4:sw=4:ft=asciidoc:
+// vim: fmr=[[[,]]]:fdm=marker:fdl=0:

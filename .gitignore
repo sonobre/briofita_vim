@@ -1,0 +1,14 @@
+*.swp
+*.swo
+*.bak
+*.bkp
+*~
+*.tags
+*tags
+*.tar
+*.gz
+*.zip
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

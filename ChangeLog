@@ -1,0 +1,142 @@
+ChangeLog: Briofita Vim Colorscheme
+===================================
+
+Github repository:
+https://github.com/sonobre/briofita_vim
+
+Vim Page:
+http://www.vim.org/scripts/script.php?script_id=4136.
+
+
+CHANGE LOG
+
+NOTE: old change log entries related to previous Briofita features that
+are deprecated as of June 2017, have been dropped from below list and are now
+archived.
+
+For more information about Briofita please check its companion Vim *help*
+file. Provided Briofita has correctly been installed you just need enter
+below command:
+
+:help briofita
+
+Version 4.0.0 (June, 2017)~
+------------------------------------------------------------------------------
+- New style, many new highlights.
+- Lightline theme added.
+- Improvements for many programming languages.
+- Dropped previous' releases so-called "Briofita options" global variables.
+- Dropped previous' releases highlight cycling feature.
+
+Version 3.1.0 (March, 2014)~
+------------------------------------------------------------------------------
+- Bug fixes.
+- Improvements highlight styles for C/C++, Perl, Python,
+  Vim Help, Ruby, shellscript, VimL, diff, Asciidoc, PL/SQL,
+  XML, HTML, Java, Manpage
+- Added/changed Syntastic and TagList highlight customizations.
+- Improvements in internal dictionary handling.
+
+Version 3.0.8 (December, 2013)~
+------------------------------------------------------------------------------
+- Added a few topics and corrected some entries of the helpfile.
+
+Version 3.0.7 (December, 2013)~
+------------------------------------------------------------------------------
+- Added five more VimL highlights.
+- Added an EasyMotion highlight.
+- Changed style of Diff, added DiffComment.
+- Changed style of StatusLine highlight.
+- Added highlights for Asciidoc, Html, NERDTree
+  and Markdown, and changed style of XmlCommentPart.
+- Changed or added highlight styles for: Asciidoc, Buffergator, Dirlist,
+  C and C plus plus, Desktop files, FSTAB editing, Ruby, Vim Help, Html, Markdown,
+  NERDTree, netrw (Explorer), Python, Restructured text (rst),
+  Todo/Task plugins, Shellscript, Diff, VimL, CtrlP, ini-files,
+  EasyMotion, Filesearch, Tabman, Make / M4.
+
+Version 3.0.6 (October, 2013)~
+------------------------------------------------------------------------------
+- Colorscheme: Bug fix: corrected missing entry (in an internal list).
+  Few changes for Asciidoc and Python syntaxes.
+- Helpfile: Added a topic about cleared highlights (under Issues).
+
+Version 3.0.5 (October, 2013)~
+------------------------------------------------------------------------------
+ - Colorscheme: Improved highlights for Help, diffFile, Asciidoc,
+   Search, XML, HTML, Awk, C, CSS, Ruby, Javascript, Markdown, NERD Tree,
+   Perl, PL/SQL, SQL, Python, Sed, VimL.
+
+Version 3.0.4 (October, 2013)~
+------------------------------------------------------------------------------
+- Colorscheme: Added highlights for Vim help, manpages and Python).
+  Added special FoldColumn highlight for Normal black background.
+  Improved several other highlights, including Vim Diff, Vim Help,
+  Asciidoc, CSS, HTML, Java, Sed, manpage, Markdown, Perl,
+  PL/SQL and Python.
+
+Version 3.0.3 (August, 2013)~
+------------------------------------------------------------------------------
+- Improvements in Folded and Normal highlights.
+  New Normal highlight with black background.
+- Improved one of the Asciidoc highlights.
+
+Version 3.0.2 (July, 2013)~
+------------------------------------------------------------------------------
+- Improved one highlight in the colorscheme (for HTML).
+
+Version 3.0.1 (July, 2013)~
+------------------------------------------------------------------------------
+- Increased the release number/date.
+
+Version 3.0.0 (July, 2013)~
+------------------------------------------------------------------------------
+- Extensive code refactoring and testing.
+- Some highlights improved, some added.
+- Bug fixes.
+
+Version 2.0.3 (May, 2013)~
+------------------------------------------------------------------------------
+- Reduced contrasting background in a few highlights of these syntaxes:
+  Sql,PL/SQL,Fountain,Vim Language.
+ - Increased contrasting background of the IncSearch highlight.
+- Corrections and improvements in the help text.
+
+Version 2.0.2 (May, 2013)~
+------------------------------------------------------------------------------
+- Improved Search highlight. Cleaned help file.
+
+Version 2.0.1 (May, 2013)~
+------------------------------------------------------------------------------
+- Code cleaning. Bug fix: corrected some leftovers from previous
+  development.
+
+Version 2.0.0 (May, 2013)~
+------------------------------------------------------------------------------
+- Increased major number. This version is not compatible with the previous one.
+- Added a help file in the the "doc" sub-directory. Most of the text
+  previously in the Vim online page has been moved into the help file.
+- Improved highlights for several syntaxes.
+- Internal highlights dictionary now split into small dictionaries
+  for easier change.
+- Suavization of style (less red, less high contrast).
+- Bug fixes.
+- Alternative folding highlights.
+
+Version 1.5.0 (August, 2012)~
+------------------------------------------------------------------------------
+- Improved color highlights of a few elements.
+
+Version 1.1 to v.1.4 (July, 2012)~
+------------------------------------------------------------------------------
+- Bug fixes.
+
+Version 1.0~
+------------------------------------------------------------------------------
+- FIRST RELEASE (July, 2012)~
+  Set red ICursor via 'guicursor' option.
+  Designed for Vim GUI only, and Vim versions >= 7.3.
+
+// modeline    [[[1
+// vim: et:nolist:ts=4:sw=4:ft=asciidoc:
+// vim: fmr=[[[,]]]:fdm=marker:fdl=0:
