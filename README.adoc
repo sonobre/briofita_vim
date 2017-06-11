@@ -64,7 +64,7 @@ http://www.vim.org/scripts/script.php?script_id=4136.
 Go
 
 .golang
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplego.png[Go language sample]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplego.png[Go language sample]
 
 Java
 
