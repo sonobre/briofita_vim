@@ -61,65 +61,29 @@ http://www.vim.org/scripts/script.php?script_id=4136.
 
 // screenshots section [[[1
 
-Go
-
-.golang
 image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplego.png[Go language sample]
 
-Java
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejava.png["Java language sample"]
 
-.java
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejava.png["Java language sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejulia.png["Julia language sample"]
 
-Julia
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplepython.png["Python language sample"]
 
-.julia
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejulia.png["Julia language sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleviml.png["Vimscript language sample"]
 
-Python
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleclang.png["C language sample"]
 
-.python
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplepython.png["Python language sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplecss.png["CSS sample"]
 
-VimL
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejavascript.png["Javascript sample"]
 
-.vimL
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleviml.png["Vimscript language sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleperl6.png["Perl 6 sample"]
 
-C language
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleruby.png["Ruby sample"]
 
-.c language
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleclang.png["C language sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplerhtml.png["RHTML sample"]
 
-CSS
-
-.css
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplecss.png["CSS sample"]
-
-Javascript
-
-.javascript
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplejavascript.png["Javascript sample"]
-
-Perl 6
-
-.perl6
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleperl6.png["Perl 6 sample"]
-
-Ruby
-
-.ruby
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasampleruby.png["Ruby sample"]
-
-RHTML
-
-.rhtml
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplerhtml.png["RHTML sample"]
-
-XML
-
-.xml
-image:: https://raw.github.com/briofita_vim/doc/screenshots/briofitasamplexml.png["XML sample"]
+image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplexml.png["XML sample"]
 
 // ]]]1
 
