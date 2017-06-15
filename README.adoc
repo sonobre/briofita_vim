@@ -5,13 +5,8 @@ Briofita is a colorful dark background Vim colorscheme.
 
 // main text [[[1
 
-More details are in the Vim help file. It is in the "doc" directory and, if Briofita is correctly
-installed, typing ":help briofita" will display it.
-It has *many* custom highlights and supports syntax coloring for *many* languages, utilities,
+Briofita colorscheme implements *many* custom highlights and supports syntax coloring for *many* languages, utilities,
 plugins, tools... Although _heavier_ than common Vim colorschemes it runs smoothly on current computers.
-
-More details are in the Vim help file. It is in the "doc" directory and, if Briofita is correctly
-installed, typing ":help briofita" will display it.
 
 // a few of the supported languages, listed [[[1
 
@@ -55,6 +50,11 @@ vim.org site.)
 Briofita page on the Vim website:
 
 http://www.vim.org/scripts/script.php?script_id=4136.
+
+Please check additional details in the companion Vim help file; it is in the "doc" sub-directory and, if Briofita is correctly
+installed, typing ":help briofita" will display it. 
+
+
 // ]]]1
 
 === Selected Screenshots
