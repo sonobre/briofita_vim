@@ -43,11 +43,10 @@ are provided for *several* programming languages. For example:
 
 // colorscheme history; vim.org URL [[[1
 
-Briofita was first released in 2012 in the Vim site (vim.org).
-Current version is 4.0.0. (The first version was released in 2012 on
-vim.org site.)
+Briofita was first released in 2012 on the Vim website (vim.org).
+Current version is 4.0.0.
 
-Briofita page on the Vim website:
+Vim website page:
 
 http://www.vim.org/scripts/script.php?script_id=4136.
 
@@ -87,30 +86,60 @@ image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briof
 
 // ]]]1
 
-=== Installation and Use
+=== Installation
 
-You can install Briofita by dowloading it as a Zip file (either from
-the Vim.org site or from Github).
+You can install Briofita by dowloading it as a Zip file either from
+the Vim.org site or from Github; or by cloning its Git repo from Github.
 
-Unpack it in the appropriate
-place under your .vim (_vim) directory.
+==== Manual Installation: Traditional Way
 
-One usual place is the "bundle" directory: the Pathogen plugin makes it
-easy to enable or disable bundle plugins.
+Manual installation: download and unpack it;  then copy the contents of
+each extracted sub-directory in the corresponding directory of 
+your .vim  or _vim directory. Create the directory if does not
+previously exist; for example: if there is no ~/.vim/autoload
+directory in your Vim run on a terminal the commands:
 
-Another way it can be installed in by placing it in the "pack" directory,
-managed by Vim itself. In the "pack/start" subdirectory the colorscheme
-becomes available from the Vim startup time. In "pack/opt" subdirectory
-you will need to first run ":packadd" to make it available.
+............
+cd ~/.vim
+mkdir autoload
+............
 
-Installation can be done, too, is by cloning Briofita git repository from github.
+==== Plugin Assisted Installation
 
-Once installed the colorscheme it can be used like any other colorscheme.
+You may use Plug, Pathogen or another of the available plugin-management plugins.
+Please read your plugin help file and follow its instructions. 
+
+Notice that the location where Briofita will be placed depends on your plugin. 
+Pathogen, for example, manages plugins installed in the "bundle" directory.
+
+==== Manual Installation: New Way
+
+From Vim 8 on you may place your extracted Zip in one of the sub-directories of the 
+"pack" directory. 
+
+If you place it in the 
+"~/.vim/pack/start" subdirectory the colorscheme
+becomes available from the _Vim startup time_. 
+
+If you place it in "~/.vim/pack/opt" subdirectory
+you will need to first run _":packadd"_ to make it available.
+
+==== Installation by Cloning
+
+Installation can be done by cloning Briofita Git repository from Github.
+
+Details will not be given here; on the Web where you will surely find a plenty of tutorials about how to
+clone a Github repo.
+
+=== Usage
+
+Once installed, the colorscheme can be used like any other colorscheme.
 For example, use below command:
 
 ------
 :color briofita
 ------
+
 === License
 
 The Vim licence (change the term "Vim" to "Briofita Vim colorscheme").
