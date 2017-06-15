@@ -93,9 +93,11 @@ the Vim.org site or from Github; or by cloning its Git repo from Github.
 
 ==== Manual Installation: Traditional Way
 
-Manual installation: download and unpack it;  then copy the contents of
+Once downloaded, unpack it. Then copy the contents of
 each extracted sub-directory in the corresponding directory of 
-your .vim  or _vim directory. Create the directory if does not
+your .vim  or _vim directory. 
+
+Create the directory if does not
 previously exist; for example: if there is no ~/.vim/autoload
 directory in your Vim run on a terminal the commands:
 
