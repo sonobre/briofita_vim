@@ -60,7 +60,7 @@ installed, typing ":help briofita" will display it.
 
 // screenshots section [[[1
 
-image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplego.png[Go language sample]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplego.png["Go language sample",title="Go language"]
 
 image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejava.png["Java language sample"]
 
