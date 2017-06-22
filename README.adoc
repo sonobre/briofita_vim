@@ -63,27 +63,27 @@ installed, typing ":help briofita" will display it.
 [caption="Go language"]
 image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplego.png["Go language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejava.png["Java language sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejava.png["Java language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejulia.png["Julia language sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejulia.png["Julia language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplepython.png["Python language sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplepython.png["Python language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleviml.png["Vimscript language sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleviml.png["Vimscript language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleclang.png["C language sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleclang.png["C language sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplecss.png["CSS sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplecss.png["CSS sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejavascript.png["Javascript sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplejavascript.png["Javascript sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleperl6.png["Perl 6 sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleperl6.png["Perl 6 sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleruby.png["Ruby sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasampleruby.png["Ruby sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplerhtml.png["RHTML sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplerhtml.png["RHTML sample"]
 
-image:: https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplexml.png["XML sample"]
+image::https://github.com/sonobre/briofita_vim/raw/master/doc/screenshots/briofitasamplexml.png["XML sample"]
 
 // ]]]1
 
