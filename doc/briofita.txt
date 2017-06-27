@@ -33,8 +33,17 @@ TABLE OF CONTENTS                                         *briofita-TOC*  [[[1
 ABOUT BRIOFITA                                           *briofita-about* [[[1
 
 
-`Briofita` can be downloaded from its Vim online page:
-        http://www.vim.org/scripts/script.php?script_id=4136.
+`Briofita` can be downloaded from
+
+        http://www.vim.org/scripts/script.php?script_id=4136
+	
+(Vim online page)
+
+        or from
+
+https://github.com/sonobre/briofita_vim
+
+(Github repo).
 
 Briofita (the name is pronounced like 'Bryophyta') is a Vim colorscheme.
 It uses high contrast wherever it benefits text legibility. Priority is given
@@ -72,7 +81,8 @@ of the color dictionary found in Distinguished, a colorshcheme by Kim Silkebækk
 
 Vim Version~
 
-From version 4.0.0 on the Briofita colorscheme targets Vim Version 8 or later.
+Since Briofita version 4.0.0 (released in 2017) this colorscheme requires 
+Vim version 8 or higher.
 
 Operating Systems~
 
