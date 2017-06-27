@@ -13,7 +13,7 @@
 " Last Change: 2017-06-09
 " Website:     http://www.vim.org/scripts/script.php?script_id=4136
 " Github Repo: https://github.com/sonobre/briofita_vim
-" NOTES:       The colorscheme can be downloaded from either vim.org site or github 
+" NOTES:       This colorscheme can be downloaded from either Vim site or Github 
 "              by accessing above URLs. Check the companion helpfile for additional
 "              information, changelog etc.
 " =============================================================================
