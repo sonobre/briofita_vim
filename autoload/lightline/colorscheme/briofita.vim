@@ -4,7 +4,7 @@
 " Version:     0.1
 " Date:        2017/05/25
 " Author:      Sergio Nobre <brio.develop@gmail.com>
-" Source:      https://github.com/  ????? / ????
+" Source:      https://github.com/sonobre/briofita_vim
 " ----------------------------------------------------------------------------------------
 
 if (exists("s:briofita_lightline_version") || exists("g:briofita_lightline_version"))
@@ -21,9 +21,6 @@ let s:bluer   = '#6060df'
 let s:bluen   = '#6060af'
 let s:bluefp  = '#202087'
 
-" let s:bl-uefq  = '#002451'
-" let s:bl-uefq    = 'DarkOliveGreen'
-" let s:bl-uefq  = '#455726'
 let s:greenfq  = '#114D11'
 
 let s:redd    = 'DarkRed'
@@ -48,11 +45,6 @@ let s:greendv = '#0c2628'
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-" PREVIOUSLY: normal left: 2nd line  \   [ s:bluefp,  s:graysp  ],
-" PREVIOUSLY: normal left: 3rd line  \   [ s:bluefp,  s:rose    ],
-
-" PREVIOUSLY: 2nd line:              \   [ s:bl-uefp,  s:gra-ysq  ],
-
 let s:p.normal.left = [ [ s:violetl,     s:bluev   ],
                     \   [ s:mango,       s:greenfq ],
                     \   [ s:grayst,      s:greenfq ],
@@ -62,9 +54,6 @@ let s:p.normal.left = [ [ s:violetl,     s:bluev   ],
                     \   [ s:black,       s:greendq ],
                     \ ]
 
-" PREVIOUSLY: elt: \   [ s:aqua,     s:blues    ],
-"                  \   [ s:aqua,     s:bluer    ],
-"                  \   [ s:blued,    s:strawq   ],
 let s:p.normal.right = [
                      \   [ s:violetl,  s:greendx  ],
                      \   [ s:redd,     s:graysq   ],
@@ -74,7 +63,6 @@ let s:p.normal.right = [
                      \   [ s:bluer,    s:aqua     ],
                      \ ]
 
-" PREVIOUSLY: let s:p.normal.middle  = [ [ s:aqua, s:greendp ] ]
 let s:p.normal.middle  = [ [ s:aqua, s:greenfq ] ]
 
 let s:p.normal.error   = [ [ s:bluefp, s:rose ] ]
@@ -106,7 +94,6 @@ let s:p.tabline.right  = copy(s:p.normal.right)
 let s:errormsg = 0
 if (exists("g:lightline")) && (type(g:lightline)==type({}))
     if exists("g:lightline.colorscheme")
-        "let g:lightline#colorscheme#briofita#palette= lightline#colorscheme#flatten(s:p)
         let g:lightline#colorscheme#briofita#palette = lightline#colorscheme#fill   (s:p)
     else
         let s:errormsg = 1
