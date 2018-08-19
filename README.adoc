@@ -3,6 +3,23 @@
 
 Briofita is a colorful dark background Vim colorscheme.
 
+Briofita was first released in 2012 on the Vim website (vim.org).
+Current version is 4.1.0.
+
+Since the first version the author has been using (and improving) it daily for most of his
+activities that could be performed via Vim editor: work, study, research... 
+
+Along the time a need was felt to add new highlights for new utilities,
+programming languages, etc. and the author became somewhat 
+frustrated at having to frequently switch and try out different colorschemes to fit
+different cases... So, as it currently is, Briofita became the colorscheme
+the author uses every day most of the time.
+
+Evidently whatever be the colorscheme a selection of features/utilities/languages would
+never fit optimally *all* the use cases. For special cases, I myself use other schemes which
+I have downloaded from Github or from the Vim web site. Along the time even I have created a few
+different colorschemes, mostly shortened Briofita derivations, which I am soon to make available for Github or Vim users.
+
 // main text [[[1
 
 Briofita colorscheme implements *many* custom highlights and supports syntax coloring for *many* languages, utilities,
@@ -42,9 +59,6 @@ are provided for *several* programming languages. For example:
         * custom highlights for Vim plugins;
 
 // colorscheme history; vim.org URL [[[1
-
-Briofita was first released in 2012 on the Vim website (vim.org).
-Current version is 4.0.0.
 
 Vim website page:
 
@@ -164,6 +178,19 @@ For example, use below command:
 ------
 :color briofita
 ------
+
+If you do NOT want the colorscheme to set the Vim 8 "termguicolor" option
+please define (or place in your .vimrc) a global variable like below:
+
+    let g:briofita_skip_termguicolor = 1
+    
+If you do NOT want the colorscheme to set the Vim option "guicursor"
+please define (or place in your .vimrc) a global variable like below:
+
+    let g:briofita_skip_guicursor = 1
+    
+Default operation sets termguicolor if Vim 8 (or more) version, and
+sets guicursor to an appropriate value.
 
 === License
 
