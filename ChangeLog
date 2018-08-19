@@ -20,6 +20,20 @@ below command:
 
 :help briofita
 
+Version 4.1.0 (August, 2018)~
+------------------------------------------------------------------------------
+- Added a few more highlights. 
+- Performed small enhancements / changes on few previously existing highlights.
+- Added global variable "g:briofita_skip_termguicolor"; if it is NOT defined
+  Briofita colorscheme will set termguicolor Vim option (for Vim versions
+  starting with 8.0). 
+  Otherwise, whatever the type of this global variable, termguicolor option
+  will NOT be set by the colorscheme.
+- Added global variable "g:briofita_skip_guicursor"; if it is NOT defined
+  Briofita colorscheme will set the guicursor Vim option to an appropriate value.
+  Otherwise, whatever the type of this global variable, guicursor option
+  will NOT be set by the colorscheme.
+
 Version 4.0.0 (June, 2017)~
 ------------------------------------------------------------------------------
 - New style, many new highlights.
