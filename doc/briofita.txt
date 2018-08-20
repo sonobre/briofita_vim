@@ -4,8 +4,8 @@
 |  *briofita*    | `Briofita`:    another   oddly-named   dark   background      |
 |              |  Vim colorscheme (pronounce its name like 'Bryophyta')      |
 |              +-------------------------------------------------------------+
-|              | `Version`   v4.0.0  (view history/release notes at the end)   |
-|              | Author:     Sergio Nobre <brio dot develop at gmail dot com>|
+|              | `Version`   v4.1.0  (view history/release notes at the end)   |
+|              | Author:     Sergio Nobre (brio dot develop at gmail dot com)|
 |              | Scriptname: briofita.vim                                    |
 |              | Licence:    The VIM LICENCE applies to Briofita, just change|
 |              |             in its text "Vim" term to "Briofita colorscheme"|
@@ -29,21 +29,11 @@ TABLE OF CONTENTS                                         *briofita-TOC*  [[[1
 
 
 ==============================================================================
-
 ABOUT BRIOFITA                                           *briofita-about* [[[1
 
 
-`Briofita` can be downloaded from
-
-        http://www.vim.org/scripts/script.php?script_id=4136
-	
-(Vim online page)
-
-        or from
-
-https://github.com/sonobre/briofita_vim
-
-(Github repo).
+`Briofita` can be downloaded from its Vim online page:
+        http://www.vim.org/scripts/script.php?script_id=4136.
 
 Briofita (the name is pronounced like 'Bryophyta') is a Vim colorscheme.
 It uses high contrast wherever it benefits text legibility. Priority is given
@@ -58,7 +48,7 @@ which are low in memory or have older CPUs, a limitation that is likely going
 to be short-lived given the current pace of changes in processor or memory
 technology...
 
-Feedback~
+Feedback 
 
 All colorscheme syntaxes present in Briofita have been custom-designed and tested.
 
@@ -67,7 +57,7 @@ But it has so MANY highlights that, for sure, it still can be improved a lot.
 Feedbacks are welcome! In case you send an e-mail please prepend [VIM] in the subject
 title for it not be regarded as spam.
 
-History~
+History 
 
 Originally this colorscheme was just a tweaked version of `Moss`, a vimscript
 by Chunlin Lin, with few changes for personal preferences. You can install Moss
@@ -79,18 +69,17 @@ Along the time Briofita got many changes inspired by other favorite
 colorschemes; for example, one of the early Briofita versions used an adaptation
 of the color dictionary found in Distinguished, a colorshcheme by Kim Silkebækken.
 
-Vim Version~
+Vim Version 
 
-Since Briofita version 4.0.0 (released in 2017) this colorscheme requires 
-Vim version 8 or higher.
+From version 4.0.0 on the Briofita colorscheme targets Vim Version 8 or later.
 
-Operating Systems~
+Operating Systems 
 
 There is no operating-system specific command in the colorscheme.
 It should be `fully` functional under any system that Vim supports.
 Author's most used operating system are GNU/Linux distros.
 
-Terminals~
+Terminals 
 
 The author uses this colorscheme both on Vim GUI and under the Gnome Terminal. 
 Other terminals are not currently available to the author for testing.
@@ -101,7 +90,6 @@ highly appreciated.
                                                                   |briofita-TOC|
 
 ==============================================================================
-
 INSTALLATION                                       *briofita-installation*  [[[1
 
 
@@ -135,27 +123,48 @@ Another way of installing it: unzip it into the "pack/start" dir.
 If you want the colorscheme started at Vim start-up put the above command
 in your "*vimrc" file.
 
-Partial Installation~
+Partial Installation 
 
 The colorscheme can be executed independently of the companion items (helpfile, etc.).
 
 You may PARTIALLY INSTALL it.
 
 For example if you want the colorscheme but not
-the helpfile: >
+the helpfile:  >
+
 	Do not copy the "doc" dir when installing it.
 	Or, if already copied, just delete the "doc" directory.
 <
+OPTIONAL PARAMETER: briofita_skip_termguicolor~
 
-Usage~
+Global variable: 
+"g:briofita_skip_termguicolor" 
+
+If above global variable is NOT defined Briofita colorscheme will 
+set the "termguicolor" Vim option (for Vim versions starting with 8.0). 
+
+OPTIONAL PARAMETER: briofita_skip_guicursor~
+
+Global variable: 
+"g:briofita_skip_guicursor"
+
+If above global variable is NOT defined Briofita colorscheme will 
+set the "guicursor" Vim option to an appropriate value.
+
+Otherwise, whatever the type of this global variable, guicursor option
+will NOT be set by the colorscheme.
+
+
+COLORSCHEME USAGE 
 
 After the colorscheme has been correctly installed, jus open a Vim instance
 and execute the following command:
->
+ 
 			:color briofita
-<
+ 
 
-Uninstallation~
+UNINSTALLATION
+
 To uninstall Briofita, just delete the above sources from the "colors" and "doc"
 directories. And run again :helptags (or :Helptags).
 
@@ -163,16 +172,15 @@ directories. And run again :helptags (or :Helptags).
 
 
 ==============================================================================
-
 PERFORMANCE                                         *briofita-performance*  [[[1
 
-General Performance~
+General Performance 
 
 This colorscheme has a LOT of syntax groups. If you think the colorscheme
 has had any performace impact on your system please inform the author via 
 email or via Github issue.
 
-Dropped Features~
+Dropped Features 
 
 Until version 3.1.0 (released on Vim.Org site on March, 2014) Briofita had
 some customization options and a complex "highlight cycling" feature. All
@@ -183,27 +191,24 @@ this was dropped in version 4.0.0 for the sake of simplicity and maintenability.
                                                                   |briofita-TOC|
 
 ==============================================================================
-
 SYNTAX COVERAGE                                        *briofita-coverage*  [[[1
 
 Languages and applications covered by the colorscheme:
 
-Syntaxes with 30 or more highlights each~
->
+Syntaxes with 30 or more highlights each  > 
 	Asciidoc, C and C++, Java, Javascript, Markdown, Julia, SQL, PL/SQL,
 	Perl / Perl6, Python / Python3, Ruby, Shellscript, Vimscript,
 	HTML / XHTML / XML, CSS, json, yaml
 <
-Syntaxes with 10 to 29 highlights each~
->
+
+Syntaxes with 10 to 29 highlights each  >
 	Awk, CSS, HTML/XHTML and XML, Ocaml,
 	PL/SQL and SQL, Sed, Tex, Vim Help
-<
-And many other syntaxes! Try it!
+< 
 
-<
-Customized highlights for Vim plugins~
->
+And many other syntaxes! Try them!
+
+Customized highlights for Vim plugins:  >
 	BufferSaurus / BufferGator,
 	Easymotion, Filesearch, IndentGuides, log4j,
 	ListMaps, ManpageView,
@@ -212,21 +217,21 @@ Customized highlights for Vim plugins~
 	some task/todo plugins,
 	UltiSnips and other snippets plugins
 <
+ 
 
-There is highlight support, too, for plugins which edit: >
+There is highlight support, too, for plugins which edit:  
 	desktop files,
 	ini files,
 	FSTAB entries,
 	m4/makefiles
-<
+ 
 
                                                                   |briofita-TOC|
 
 ==============================================================================
-
 ISSUES                                             *briofita-known-issues*  [[[1
 
-Cleared Highlights~
+Cleared Highlights 
 
 When more than one highlight definition sources is simultaneously active
 (colorschemes and syntax files, for example, in different tabpages) an item
@@ -238,7 +243,7 @@ Briofita tries to minimize the use of highlight link commands in connection with
 the avoidance of cleared highlights.
 
 
-High Contrast~
+High Contrast 
 
 Some syntax elements may be shown in HIGH CONTRAST: for example HelpBar or
 HelpStar (when not hidden per Conceal attribute).
@@ -248,7 +253,6 @@ HelpStar (when not hidden per Conceal attribute).
 
 
 ==============================================================================
-
 HISTORY                                                 *briofita-history*  [[[1
 
 
@@ -263,8 +267,5 @@ and kindly provided a patch.
 
                                                                   |briofita-TOC|
 
-==============================================================================
-
-" modeline [[[1
-" vim: et:norl:ts=4:tw=80:sw=4:ft=help:
-" vim: fmr=[[[,]]]:fdm=marker:fdl=0:
+vim: set et norl ts=4 tw=80 sw=4 ft=help:      [[[1
+vim: set fmr=[[[,]]] fdm=marker fdl=0 syntax=help:
